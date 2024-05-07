@@ -1,0 +1,237 @@
+name: Internet of Things
+languages: English
+date: 11-9-2023
+starttime: 13
+runtime: 5 
+branch: EXTC
+extrainfo: Have Fun !!!
+maxQuestion: 10
+
+data:
+    - Question: What does IoT stand for?
+      Answer: The Internet of Things
+      Hint: It's an acronym.
+      Option1: The Internet of Technology
+      Option2: The Interconnected Objects
+      Option3: The Internet of Tomorrow
+      Option4: The Internet of Telecommunication
+      Severity: medium
+      AvgTimeToAnswer: 15
+      Marks: 1
+
+
+    - Question: What is the core concept of IoT?
+      Answer: Interconnectedness of everyday objects to the internet
+      Hint: It enables data collection and autonomous actions.
+      Option1: Remote control of devices
+      Option2: Advanced sensor technology
+      Option3: High-speed networks
+      Option4: Artificial Intelligence
+      Severity: high
+      AvgTimeToAnswer: 20
+      Marks: 1
+
+
+    - Question: How many connected IoT devices were estimated by the end of 2020?
+      Answer: Over 31 billion
+      Hint: It's a large number.
+      Option1: 10 billion
+      Option2: 50 billion
+      Option3: 100 billion
+      Option4: 31 million
+      Severity: medium
+      AvgTimeToAnswer: 18
+      Marks: 1
+
+
+    - Question: What is the projected number of connected IoT devices by 2025?
+      Answer: 75 billion
+      Hint: It's a future estimation.
+      Option1: 100 billion
+      Option2: 50 billion
+      Option3: 200 billion
+      Option4: 75 million
+      Severity: high
+      AvgTimeToAnswer: 25
+      Marks: 1
+
+
+    - Question: What has driven the growth of IoT?
+      Answer: Advancements in sensor technology, low-cost hardware, and 5G networks
+      Hint: It's related to technology and networks.
+      Option1: Government regulations
+      Option2: Social media trends
+      Option3: Renewable energy sources
+      Option4: Artificial intelligence
+      Severity: high
+      AvgTimeToAnswer: 30
+      Marks: 1
+
+
+    - Question: Give an example of an IoT application in healthcare.
+      Answer: Wearable fitness trackers
+      Hint: It's a device you wear to monitor your health.
+      Option1: Smart refrigerators
+      Option2: Self-driving cars
+      Option3: Agricultural sensors
+      Option4: Wearable fitness trackers
+      Severity: medium
+      AvgTimeToAnswer: 22
+      Marks: 1
+
+
+    - Question: How are IoT sensors used in agriculture?
+      Answer: To monitor soil conditions, weather patterns, and crop health
+      Hint: It's about optimizing farming practices.
+      Option1: Tracking wildlife populations
+      Option2: Monitoring ocean currents
+      Option3: Analyzing space weather
+      Option4: Monitoring soil conditions
+      Severity: medium
+      AvgTimeToAnswer: 18
+      Marks: 1
+
+
+    - Question: What is V2V in transportation IoT?
+      Answer: Vehicle-to-vehicle communication
+      Hint: It's a form of communication in transportation.
+      Option1: Voice-to-voice communication
+      Option2: Vehicle-to-vehicle navigation
+      Option3: Vehicle-to-voice interaction
+      Option4: Vehicle-to-vehicle communication
+      Severity: medium
+      AvgTimeToAnswer: 16
+      Marks: 1
+
+
+    - Question: What is a major concern in IoT related to security?
+      Answer: Vulnerability to cyberattacks
+      Hint: It's a threat to interconnected devices.
+      Option1: Weather disturbances
+      Option2: Economic fluctuations
+      Option3: Data storage capacity
+      Option4: Vulnerability to cyberattacks
+      Severity: high
+      AvgTimeToAnswer: 28
+      Marks: 1
+
+
+    - Question: Why do IoT data raise privacy concerns?
+      Answer: Due to the vast amount of data generated
+      Hint: It's related to the volume of data.
+      Option1: Limited data generation
+      Option2: High-speed data transmission
+      Option3: Lack of data standards
+      Option4: Vast data generation
+      Severity: high
+      AvgTimeToAnswer: 24
+      Marks: 1
+
+
+    - Question: What technology will play a pivotal role in analyzing IoT data?
+      Answer: AI and machine learning
+      Hint: It involves data analysis and learning.
+      Option1: Quantum computing
+      Option2: Augmented reality
+      Option3: Virtual reality
+      Option4: AI and machine learning
+      Severity: high
+      AvgTimeToAnswer: 30
+      Marks: 1
+
+
+    - Question: What is edge computing in IoT?
+      Answer: Data processing closer to IoT devices
+      Hint: It reduces latency.
+      Option1: Cloud computing
+      Option2: Data storage
+      Option3: Data transmission
+      Option4: Edge computing
+      Severity: medium
+      AvgTimeToAnswer: 20
+      Marks: 1
+
+
+    - Question: What is the role of IoT in smart cities?
+      Answer: Interconnecting city infrastructure
+      Hint: It involves infrastructure connectivity.
+      Option1: Reducing city population
+      Option2: Enhancing public art
+      Option3: Promoting city tourism
+      Option4: Interconnecting city infrastructure
+      Severity: high
+      AvgTimeToAnswer: 26
+      Marks: 1
+
+
+    - Question: Name one industry that industrial IoT (IIoT) can revolutionize.
+      Answer: Manufacturing
+      Hint: It's related to production processes.
+      Option1: Retail
+      Option2: Entertainment
+      Option3: Agriculture
+      Option4: Manufacturing
+      Severity: high
+      AvgTimeToAnswer: 32
+      Marks: 1
+
+
+    - Question: What is the primary goal of IoT's real-time data collection?
+      Answer: Providing valuable insights
+      Hint: It's about information and knowledge.
+      Option1: Reducing data transmission
+      Option2: Generating massive data
+      Option3: Providing real-time entertainment
+      Option4: Providing valuable insights
+      Severity: medium
+      AvgTimeToAnswer: 22
+      Marks: 1
+
+
+    - Question: What makes IoT devices vulnerable to cyberattacks?
+      Answer: Interconnectedness and lack of security measures
+      Hint: It's related to device connectivity.
+      Option1: Advanced encryption
+      Option2: Regular software updates
+      Option3: Device isolation
+      Option4: Interconnectedness and lack of security measures
+      Severity: high
+      AvgTimeToAnswer: 35
+      Marks: 1
+
+
+    - Question: How does IoT benefit agriculture?
+      Answer: By optimizing farming practices
+      Hint: It's related to efficiency in farming.
+      Option1: Creating artificial ecosystems
+      Option2: Enhancing food storage
+      Option3: Tracking wildlife populations
+      Option4: Optimizing farming practices
+      Severity: medium
+      AvgTimeToAnswer: 28
+      Marks: 1
+
+
+    - Question: What network technology enables faster data transmission for IoT?
+      Answer: 5G networks
+      Hint: It's the latest generation of networks.
+      Option1: 3G networks
+      Option2: Wi-Fi
+      Option3: Bluetooth
+      Option4: 5G networks
+      Severity: high
+      AvgTimeToAnswer: 30
+      Marks: 1
+
+
+    - Question: What role does data protection regulation play in IoT?
+      Answer: Ensuring privacy and security of IoT data
+      Hint: It's about protecting data.
+      Option1: Data storage optimization
+      Option2: Data generation control
+      Option3: Data transmission speed
+      Option4: Ensuring privacy and security of IoT data
+      Severity: high
+      AvgTimeToAnswer: 26
+      Marks: 1
+

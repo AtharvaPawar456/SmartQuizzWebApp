@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block title %}SMartQuizzz | Quiz{% endblock %}
+<div>{% block content %} {% load static %}</div>
+
+<div class="mx-10 my-6 text-center">
+
+    <h1 class="text-2xl text-red-600">quiz_completed</h1>
+
+    <div class="text-2xl text-gray-400">User : {{ username }}</div>
+    <div class="text-2xl text-gray-400">Marks : {{ userscore }}</div>
+</div>
+
+{% endblock %}

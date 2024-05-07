@@ -1,0 +1,226 @@
+name: Internet of Things
+languages: English
+date: 9-9-2023
+starttime: 1
+runtime: 5 
+
+data:
+    - Question: What does IoT stand for?
+      Answer: Internet of Things
+      Hint: It's an acronym.
+      Option1: Internet of Technology
+      Option2: Internet of Telecommunication
+      Option3: Internet of Transportation
+      Option4: Internet of Trends
+      Severity: low
+      AvgTimeToAnswer: 15 seconds
+      Marks: 1
+
+    - Question: How would you define IoT in simple terms?
+      Answer: IoT refers to the interconnection of everyday objects and devices to the internet.
+      Hint: It's about connecting things to the internet.
+      Option1: A global network of people
+      Option2: A new type of smartphone
+      Option3: A social media platform
+      Option4: A virtual reality technology
+      Severity: low
+      AvgTimeToAnswer: 20 seconds
+      Marks: 2
+
+    - Question: What is one potential benefit of IoT in healthcare?
+      Answer: Improved patient care through remote monitoring.
+      Hint: It involves monitoring patients from a distance.
+      Option1: Faster surgeries
+      Option2: More hospital beds
+      Option3: Better food services
+      Option4: Remote pet care
+      Severity: medium
+      AvgTimeToAnswer: 25 seconds
+      Marks: 2
+
+    - Question: What is the projected number of connected IoT devices by 2025?
+      Answer: 75 billion
+      Hint: It's a large number, significantly higher than in 2020.
+      Option1: 50 million
+      Option2: 100 billion
+      Option3: 1 trillion
+      Option4: 75 million
+      Severity: medium
+      AvgTimeToAnswer: 30 seconds
+      Marks: 2
+
+    - Question: What technology has enabled faster data transmission in IoT?
+      Answer: 5G networks
+      Hint: It's the latest generation of wireless technology.
+      Option1: 4G networks
+      Option2: 3G networks
+      Option3: Wi-Fi
+      Option4: Bluetooth
+      Severity: medium
+      AvgTimeToAnswer: 28 seconds
+      Marks: 1
+
+    - Question: In agriculture, what do IoT sensors monitor?
+      Answer: Soil conditions, weather patterns, and crop health.
+      Hint: They collect data related to farming.
+      Option1: Traffic conditions
+      Option2: Sports scores
+      Option3: Air quality
+      Option4: Farm animal behavior
+      Severity: low
+      AvgTimeToAnswer: 22 seconds
+      Marks: 1
+
+    - Question: What is V2V communication in the context of transportation?
+      Answer: Vehicle-to-vehicle communication.
+      Hint: It's about vehicles communicating with each other.
+      Option1: Video-to-video communication
+      Option2: Vehicle-to-voice communication
+      Option3: Vehicle-to-virtual reality communication
+      Option4: Vehicle-to-vendor communication
+      Severity: low
+      AvgTimeToAnswer: 20 seconds
+      Marks: 2
+
+    - Question: What is one major concern related to IoT security?
+      Answer: Vulnerability to cyberattacks.
+      Hint: It involves the safety of interconnected devices.
+      Option1: Smartphone battery life
+      Option2: Internet speed
+      Option3: Weather forecasts
+      Option4: Cybersecurity
+      Severity: high
+      AvgTimeToAnswer: 30 seconds
+      Marks: 5
+
+    - Question: Why do IoT devices raise privacy concerns?
+      Answer: Due to the vast amount of data they generate.
+      Hint: It's about the amount of data collected.
+      Option1: Lack of data
+      Option2: Data encryption
+      Option3: Data deletion
+      Option4: Data minimization
+      Severity: medium
+      AvgTimeToAnswer: 25 seconds
+      Marks: 2
+
+    - Question: What does IIoT stand for?
+      Answer: Industrial Internet of Things.
+      Hint: It's IoT applied to a specific sector.
+      Option1: International Internet of Things
+      Option2: Internet of Industrial Technologies
+      Option3: Industrial Internet of Telecommunications
+      Option4: Internet of Information Technology
+      Severity: low
+      AvgTimeToAnswer: 18 seconds
+      Marks: 1
+
+    - Question: How might edge computing benefit IoT?
+      Answer: It reduces latency and improves real-time decision-making.
+      Hint: It involves faster data processing.
+      Option1: It increases latency and delays decisions.
+      Option2: It has no impact on decision-making.
+      Option3: It slows down data transmission.
+      Option4: It improves data storage capacity.
+      Severity: medium
+      AvgTimeToAnswer: 28 seconds
+      Marks: 2
+
+    - Question: What role will AI and machine learning play in IoT?
+      Answer: Analyzing vast amounts of IoT data to provide valuable insights.
+      Hint: It involves data analysis and valuable information.
+      Option1: They will make IoT devices smaller.
+      Option2: They will replace IoT devices.
+      Option3: They will improve IoT security.
+      Option4: They will create new IoT standards.
+      Severity: medium
+      AvgTimeToAnswer: 30 seconds
+      Marks: 5
+
+    - Question: What is the primary goal of IoT in smart cities?
+      Answer: Interconnecting city infrastructure for improved efficiency.
+      Hint: It involves making cities smarter.
+      Option1: Providing free Wi-Fi to residents
+      Option2: Creating more parks
+      Option3: Building taller buildings
+      Option4: Connecting cities to the moon
+      Severity: high
+      AvgTimeToAnswer: 40 seconds
+      Marks: 5
+
+    - Question: What makes IoT devices unique in their data collection capabilities?
+      Answer: They collect data autonomously.
+      Hint: They collect data without human intervention.
+      Option1: They collect data manually.
+      Option2: They collect data from newspapers.
+      Option3: They collect data from social media.
+      Option4: They collect data from phone calls.
+      Severity: low
+      AvgTimeToAnswer: 18 seconds
+      Marks: 1
+
+    - Question: How does IoT relate to remote control and monitoring?
+      Answer: It enables remote control and monitoring of devices.
+      Hint: It's about managing devices from a distance.
+      Option1: It has no impact on device control.
+      Option2: It only works in close proximity.
+      Option3: It only monitors devices but can't control them.
+      Option4: It's a type of gaming technology.
+      Severity: medium
+      AvgTimeToAnswer: 25 seconds
+      Marks: 2
+
+    - Question: What technology enables low-cost IoT hardware?
+      Answer: Advancements in sensor technology.
+      Hint: It's a specific technology.
+      Option1: Advancements in cloud computing
+      Option2: Advancements in robotics
+      Option3: Advancements in quantum computing
+      Option4: Advancements in sensor technology
+      Severity: low
+      AvgTimeToAnswer: 22 seconds
+      Marks: 2
+
+    - Question: What challenges must be addressed for seamless communication between IoT devices?
+      Answer: Interoperability and standardization issues.
+      Hint: It involves making different devices work together smoothly.
+      Option1: Battery life optimization
+      Option2: Data encryption
+      Option3: Faster data transmission
+      Option4: Interoperability and standardization issues
+      Severity: medium
+      AvgTimeToAnswer: 28 seconds
+      Marks: 5
+
+    - Question: What is the significance of low-latency 5G networks in IoT?
+      Answer: They enable faster and more reliable data transmission.
+      Hint: It's about the speed and reliability of data transfer.
+      Option1: They reduce the need for IoT devices.
+      Option2: They increase the cost of IoT devices.
+      Option3: They make IoT devices heavier.
+      Option4: They enable faster charging of IoT devices.
+      Severity: low
+      AvgTimeToAnswer: 20 seconds
+      Marks: 2
+
+    - Question: What does "edge computing" mean in the context of IoT?
+      Answer: Data processing occurs closer to the source (IoT devices).
+      Hint: It's about where data processing happens.
+      Option1: Data processing occurs in the cloud.
+      Option2: Data processing occurs on the moon.
+      Option3: Data processing occurs in outer space.
+      Option4: Data processing occurs closer to the source (IoT devices).
+      Severity: low
+      AvgTimeToAnswer: 22 seconds
+      Marks: 1
+
+    - Question: How can IoT potentially revolutionize transportation?
+      Answer: Through vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication.
+      Hint: It's about how IoT can improve transportation.
+      Option1: By reducing the number of vehicles on the road.
+      Option2: By increasing traffic congestion.
+      Option3: By building more roads.
+      Option4: Through vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication.
+      Severity: medium
+      AvgTimeToAnswer: 30 seconds
+      Marks: 2

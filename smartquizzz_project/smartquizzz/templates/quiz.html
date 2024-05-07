@@ -1,0 +1,91 @@
+{% extends 'base.html' %} {% block title %}SMartQuizzz | Quiz{% endblock %}
+<div>{% block content %} {% load static %}</div>
+
+<div class="mx-10 my-6">
+
+    <h1 class="text-center text-blue-600 text-2xl font-bold my-6">{{ quizName }} for Branch {{ branch }}</h1>
+    <h1 class="text-center text-gray-400 text-base my-6">
+        {{ date }} | Start Time : {{ starttime }} | End Time : {{ endtime }}</h1>
+    <h1 class="text-center text-xl">Quiz Question {{ question_index }} of {{ maxQuestion }}</h1>
+
+    <form id="quizForm" method="post">
+
+        {% csrf_token %}
+        <h2 class="text-2xl p-4 border shadow my-10"
+            >Question: {{ question.Question }}</h2>
+        <div class="grid grid-cols-3 gap-4">
+            <p class="text-base text-gray-400 col-span-2">Hint : {{ question.Hint }}...</p>
+
+            {% if question.Severity == "high" %}
+                <div class="flex justify-center">
+                    <p class="uppercase text-center text-black font-bold rounded px-6 py-2 border bg-red-400">
+                        {{ question.Severity }}</p>
+                </div>
+            {% else %}
+                <div class="flex justify-center">
+                    <p class="uppercase text-center text-black font-bold rounded px-6 py-2 border bg-green-400">{{ question.Severity }}</p>
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="grid grid-cols-2 gap-4 my-10 mx-6">
+            <div class="text-xl p-4 border shadow">
+                <input type="radio" name="user_answer" value="{{ question.Option1 }}"> {{ question.Option1 }}<br>
+            </div>
+            <div class="text-xl p-4 border shadow">
+                <input type="radio" name="user_answer" value="{{ question.Option2 }}"> {{ question.Option2 }}<br>
+            </div>
+            <div class="text-xl p-4 border shadow">
+                <input type="radio" name="user_answer" value="{{ question.Option3 }}"> {{ question.Option3 }}<br>
+            </div>
+            <div class="text-xl p-4 border shadow">
+                <input type="radio" name="user_answer" value="{{ question.Option4 }}"> {{ question.Option4 }}<br>
+            </div>
+        </div>
+        id
+        <input type="hidden" name="question" value="{{ question.Question }}">
+        <input type="hidden" name="answer" value="{{ question.Answer }}">
+        <input type="hidden" name="severity" value="{{ question.Severity }}">
+        <input type="hidden" name="marks" value="{{ question.Marks }}">
+        <input type="hidden" name="avgTimeToAnswer" value="{{ question.AvgTimeToAnswer }}">
+        <div class="flex justify-center">
+            <input type="submit" value="Submit" 
+                class="p-6 shadow border bg-blue-500 hover:bg-blue-700 text-xl text-white rounded">
+        </div>
+    </form>
+    
+    <script>
+        // Function to validate the form before submission
+        function validateForm() {
+          var userAnswerRadios = document.querySelectorAll('input[name="user_answer"]');
+          var answerSelected = false;
+      
+          // Check if any radio button is selected
+          for (var i = 0; i < userAnswerRadios.length; i++) {
+            if (userAnswerRadios[i].checked) {
+              answerSelected = true;
+              break;
+            }
+          }
+      
+          if (!answerSelected) {
+            alert("Please select an answer before submitting.");
+            return false; // Prevent form submission
+          }
+      
+          // If validation passes, allow form submission
+          return true;
+        }
+      
+        // Attach the validateForm function to the form's submit event
+        var quizForm = document.getElementById("quizForm");
+        quizForm.addEventListener("submit", function (event) {
+          if (!validateForm()) {
+            event.preventDefault(); // Prevent form submission if validation fails
+          }
+        });
+      </script>
+      
+</div>
+
+{% endblock %}

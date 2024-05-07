@@ -1,0 +1,56 @@
+- Answer: The Internet of Things
+  AvgTimeToAnswer: 15
+  Marks: '1'
+  Question: What does IoT stand for?
+  Response_time: 314
+  Severity: medium
+  User_answer: The Interconnected Objects
+  score: 0
+- Answer: Over 31 billion
+  AvgTimeToAnswer: 18
+  Marks: '1'
+  Question: How many connected IoT devices were estimated by the end of 2020?
+  Response_time: 2
+  Severity: medium
+  User_answer: 31 million
+  score: 0
+- Answer: Interconnectedness of everyday objects to the internet
+  AvgTimeToAnswer: 20
+  Marks: '1'
+  Question: What is the core concept of IoT?
+  Response_time: 1
+  Severity: high
+  User_answer: Advanced sensor technology
+  score: 0
+- Answer: 75 billion
+  AvgTimeToAnswer: 25
+  Marks: '1'
+  Question: What is the projected number of connected IoT devices by 2025?
+  Response_time: 1
+  Severity: high
+  User_answer: 75 million
+  score: 0
+- Answer: Advancements in sensor technology, low-cost hardware, and 5G networks
+  AvgTimeToAnswer: 30
+  Marks: '1'
+  Question: What has driven the growth of IoT?
+  Response_time: 1
+  Severity: high
+  User_answer: Social media trends
+  score: 0
+- Answer: Vulnerability to cyberattacks
+  AvgTimeToAnswer: 28
+  Marks: '1'
+  Question: What is a major concern in IoT related to security?
+  Response_time: 269
+  Severity: high
+  User_answer: Data storage capacity
+  score: 0
+- Answer: Wearable fitness trackers
+  AvgTimeToAnswer: 22
+  Marks: '1'
+  Question: Give an example of an IoT application in healthcare.
+  Response_time: 7
+  Severity: medium
+  User_answer: Self-driving cars
+  score: 0
